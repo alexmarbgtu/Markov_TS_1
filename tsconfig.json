@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+    "target": "ES6",
+    "lib": ["ES2016"],
+    "module": "Node16",
+    "sourceMap": true,
+		"moduleResolution": "node16",
+		"outDir": "./out_js",
+    "experimentalDecorators": true
+	},
+  "files": ["src/index.ts"],
+	"include": ["./src/**/*"],
+	"exclude": ["./out_js", "./node_modules", "./dist"],
+  "extends": "@tsconfig/node22/tsconfig.json"
+}
